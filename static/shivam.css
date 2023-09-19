@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=PT+Sans&family=Poppins&display=swap");
+:root {
+  /* sizes  */
+  --size-xl: 50px;
+  --size-l: 40px;
+  --size-m: 22px;
+  --size-sm: 16px;
+
+  /* color */
+  --color-lightyellow: #f5f2ea;
+  --color-darkyellow: #c58940;
+  --color-dark: #33373a;
+  --color-blue: #6a85a4;
+  --color-white: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+}
+body {
+  background-color: var(--color-white);
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 148px;
+  background-image: url('/images/beigebg.jpg');
+}
+
+.container > p {
+  font-size: var(--size-l);
+  color: var(--color-darkyellow);
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 0px 0px 50px;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  height: 1;
+  width: 100%;
+
+}
+
+.services_box {
+  min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  padding: 40px 15px 20px;
+}
+.service_box_icon>img{
+    height: 15vh;
+    width: 15vh;
+}
+.service_link{
+    padding-top: 20px;
+}
+.service_link>a{
+
+    max-width: 100px;
+    width: 100%;
+    text-decoration: none;
+    color: var(--color-darkyellow);
+    font-size : var(--size-m);
+    font-weight: 900;
+}
+.alter_box{
+    background-color: var(--color-lightyellow);
+    border: 2px solid;
+    border-color: var(--color-darkyellow);
+}

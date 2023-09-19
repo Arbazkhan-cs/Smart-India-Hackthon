@@ -1,0 +1,31 @@
+.container1{
+    height: 100vh;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    background-image: url('/images/beigebg.jpg');
+    padding: 10rem 5rem;
+}
+h1{
+    color: #204268;
+    word-wrap: break-word;
+    font-family: poppin;
+    font-size: 3rem;
+}
+h1 p{
+    color: #36383a;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 300;
+    margin-top: 70px;
+}
+.container2{
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 130px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10rem 5rem;
+}

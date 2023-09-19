@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    {{!-- CSS --}}
+    <link rel="stylesheet" href="shivam.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="heroSection.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="prem.css">
+    <link rel="stylesheet" href="slider.css">
+
+
+
+      <!-- Font Links -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet" />
+
+  <!-- Icon Links (Font awesome CDN) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <title>SIH-TeamUnion</title>
+
+</head>
+<body>
+
+    <div class="ishant-container">
+        {{> header}}
+    </div>
+
+    <div class="prem-container">
+        {{> about}}
+    </div>
+
+    <div class="shivam-container">
+        {{> services}}
+    </div>
+
+    {{> slider}}
+
+    {{> below_page}}   
+
+    <script src="counter.js"></script>
+    <script src="navBarScript.js"></script>
+    {{!-- <script src="slider.js"></script> --}}
+</body>
+</html>
